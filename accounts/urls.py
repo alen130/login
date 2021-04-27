@@ -4,7 +4,7 @@ from django.contrib.auth.views import LoginView,LogoutView,PasswordResetView,Pas
 from django.contrib.auth import views as auth_views
 
 urlpatterns=[
-     #path('', include('django.contrib.auth.urls')),
+    #path('', include('django.contrib.auth.urls')),
     path('',views.indexView,name="index"),
     path('dashboard/',views.dashboardView,name="dashboard"),
     path('login/',LoginView.as_view(),name="login_url"),
