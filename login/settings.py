@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'login.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
+        'NAME': 'roadmakerDB',
         'USER': 'postgres',
-        'PASSWORD': 'secret',
-        'HOST': 'localhost',
+        'PASSWORD': 'postgres',
+        'HOST': '172.17.0.2',
         'PORT': '5432',
     }
 }
